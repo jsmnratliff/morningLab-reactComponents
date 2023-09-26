@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 80px;
+}
+.image {
+  max-width: 200px;
+}
+.flex-row {
+  display: flex;
+}
+.component-container {
+  min-width: 400px;
+  height: 200px;
+  margin: 20px;
+}
+
+.purple {
+  background-color: purple;
+}
+.burnt-orange {
+  background-color: #e69500;
+}
+.green {
+  background-color: green;
+}
+.maroon {
+  background-color: maroon;
+}
+.powderblue {
+  background-color: powderblue;
+}
+.yellow {
+  background-color: yellow;
+}
