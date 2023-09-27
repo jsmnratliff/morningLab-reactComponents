@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 
-function ProductDetailsToggle({ product }) {
+function passaProduct({product}) {
   const [isVisible, setIsVisible] = useState(true);
 
   const handleToggle = () => {
@@ -25,7 +25,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Product Details Toggle</h1>
-      <ProductDetailsToggle product={product} />
+      <passaProduct product={product} />
     </div>
   );
 }

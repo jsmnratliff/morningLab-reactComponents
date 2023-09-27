@@ -5,6 +5,7 @@ import TextInputDisplay from './components/component2';
 import NameGenerator from './components/component3';
 import AddNames from './components/component4';
 import ForceToggle from './components/component5';
+import passaProduct from './components/components6';
 
 export default function App() {
   return (
@@ -36,7 +37,7 @@ export default function App() {
         </div>
         <div className="component-container grey">
           <h1>component 6</h1>
-          {/* put component4 RIGHT here */}
+          <passaProduct />
         </div>
       </div>
      
